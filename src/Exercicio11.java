@@ -5,8 +5,10 @@ public class Exercicio11 {
     }
 
     public void executarExercicio11(Scanner input) {
+
         int soma = 0;
         int contador = 0;
+
         System.out.println("Iniciando execução exericio 11 -- Média de números dos alunos");
 
         int numero;

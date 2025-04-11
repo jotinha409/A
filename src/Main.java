@@ -21,6 +21,10 @@ public class Main {
             System.out.println("\t9 - Exercício ....");
             System.out.println("\t10 - Exercício ....");
             System.out.println("\t11 - Exercício ....");
+            System.out.println("\t12 - Exercício ....");
+            System.out.println("\t13 - Exercício ....");
+            System.out.println("\t14 - Exercício ....");
+            System.out.println("\t15 - Exercício ....");
             System.out.println("\t0 - SAIR DO PROGRAMA!");
             System.out.println("Escolha sua opção: ");
             opt = input.nextInt();
@@ -72,6 +76,22 @@ public class Main {
                 case 11:
                     Exercicio11 exercicio11 = new Exercicio11();
                     exercicio11.executarExercicio11(input);
+                    break;
+                case 12:
+                    Exercicio12 exercicio12 = new Exercicio12();
+                    exercicio12.executarExercicio12();
+                    break;
+                case 13:
+                    Exercicio13 exercicio13 = new Exercicio13();
+                    exercicio13.executarExercicio13(input);
+                    break;
+                case 14:
+                    Exercicio14 exercicio14 = new Exercicio14();
+                    exercicio14.executarExercicio14(input);
+                    break;
+                case 15:
+                    Exercicio15 exercicio15 = new Exercicio15();
+                    exercicio15.executarExercicio15(input);
                     break;
                 default:
                     System.out.println("Opção inválida, tente novamente.");
